@@ -1,0 +1,46 @@
+{
+  "name": "memory-card-game",
+  "version": "1.2.0",
+  "description": "This is another version of Hearthstone which is made by a big fan.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch backend --exec babel-node backend/server.js",
+    "build": "rm -rf dist && babel backend -d dist",
+    "heroku-postbuild": "npm run build && cd frontend && npm install && npm install @fortawesome/react-fontawesome && npm install @fortawesome/fontawesome-svg-core && npm install @fortawesome/free-solid-svg-icons && npm install @fortawesome/free-brands-svg-icons && npm install @material-ui/core && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dautohamchoi/memory-card-game.git"
+  },
+  "keywords": [
+    "nodejs",
+    "react",
+    "express",
+    "mongodb"
+  ],
+  "author": "dautohamchoi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dautohamchoi/memory-card-game/issues"
+  },
+  "homepage": "https://github.com/dautohamchoi/memory-card-game#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.28",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.1",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.11.0",
+    "nodemon": "^2.0.4"
+  },
+  "engines": {
+    "node": "12.16.1",
+    "npm": "6.13.4"
+  }
+}
