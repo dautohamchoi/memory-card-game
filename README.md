@@ -1,19 +1,19 @@
 # Hearthstone Memory Card Game
-***
+
 This is a game to express an interest in hearthstone vietname forum. It's also a novel idea for me to practise coding.
-***
+
 ## Demo Website:
 Link Demo: [https://hearthstone-memory-game.herokuapp.com/](https://hearthstone-memory-game.herokuapp.com/)
-***
+
 ## Which stacks I used to create the website ?
 - HTML5 and CSS3: Sematic Element and Flexbox
 - React: Components, Props, Events, Hooks, Router, Axios, Material-UI
 - Redux: Store, Actions, Reducers
-- NodeJS: Express, Web API, jsonwebtoken, body-parser.
+- NodeJS: Express, Web API, jsonwebtoken, body-parser, cookie-js.
 - MongoDB: Mongoose, Schema
 - Development: Babel, ESLint, Git, Github
 - Deployment: Heroku
-*** 
+
 ## Features
 ### Section 1: Sign in and Sign up 
 I create a sign-in/sign-up form with minimalist design in folders such as *SigninScreen, RegisterScreen*.
@@ -36,7 +36,8 @@ I create a data including source of images, name of images, and their order base
 The games have two ranking including:
 - **High Score**
 - **High Level**
-*Whenever users finish challenges whether they win or loses, they will receive an amount of score equals their experience which can accumulate".
+
+*Whenever users finish challenges whether they win or loses, they will receive an amount of score equals their experience which can accumulate*.
 
 ### Section 5: Feedback
 Users can easily leave their feedback about their game, and they can choose which star they want to judge the game.
