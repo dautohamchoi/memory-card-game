@@ -44,8 +44,12 @@ The games have two ranking including:
 
 ### Section 5: Feedback
 Users can easily leave their feedback about their game, and they can choose which star they want to judge the game.
+
 Admin can simply delete any comment that they think it should be kept or deleted through XOA button on the top of left side.
+
 The feedback form shows us that the average score of the games from feedbacks of users.
+
+![Feedback](/frontend/Feedback.png)
 ***
 ## Authors
 Facebook: [@dautohamchoi](https://www.facebook.com/dautohamchoi)
