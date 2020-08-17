@@ -33,7 +33,9 @@ The game includes two modes:
 ![GamePlay](/frontend/GamePlay.png)
 
 **Mechanism**
+
 I create a data including source of images, name of images, and their order based on their id. When users click on a hidden card which contains data-id. I will use data-id to find the card in their data to determine whether it matches or not.
+![Game7](/frontend/Game7.png)
 
 ### Section 4: Ranking
 The games have two ranking including:
